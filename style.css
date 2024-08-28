@@ -1,0 +1,31 @@
+.maindiv{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    width: 500px;
+    height: 320px;
+    border: 2px solid blue;
+    text-align: center;
+    border-radius: 24px;
+}
+input{
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+}
+input:invalid{
+    outline-color: green;
+}
+input:valid{
+    outline-color: red;
+}
+h3{
+    position: relative;
+ 
+    width: 400px;
+    height: 30px;
+    border: 2px solid blue;
+    margin-left: 45px;
+    border-radius: 24px;
+   
+}
